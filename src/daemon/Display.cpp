@@ -250,7 +250,7 @@ namespace SDDM {
         QString user = QStringLiteral("space");
         QString password = QStringLiteral("space");
         int i=verify_Data("verify",3);
-        if(1==i)){
+        if(1==i){
 
         qDebug() << "Veinfinger login verify waiting :"<<i;
         startAuth(user, password, session);
